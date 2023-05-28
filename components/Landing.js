@@ -1,5 +1,5 @@
 import React from 'react';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Card from './Card';
 import Profile_pic from '../assets/images/Profile_pic.jpg'
 import Typewriter from 'typewriter-effect'
@@ -20,7 +20,7 @@ const Landing = () => {
                     />
                     <div className='text-[10px] hidden lg:flex paragraph font-normal lg:mt-8 w-full'>
                         <span>
-                        Hey !! I'm Nikhil Sharma, a third-year B.Tech student at SRM University in Chennai. My passion for technology has driven me to develop skills in both Android and web development, creating user-friendly applications and websites. I have strong organizational skills, leading and managing various events. My outstanding academic performance reflects my hard work and dedication to learning. I'm eager to continue growing my skills and achieving my goals in the future.
+                        Hey !! Im Nikhil Sharma, a third-year B.Tech student at SRM University in Chennai. My passion for technology has driven me to develop skills in both Android and web development, creating user-friendly applications and websites. I have strong organizational skills, leading and managing various events. My outstanding academic performance reflects my hard work and dedication to learning. Im eager to continue growing my skills and achieving my goals in the future.
                         </span>
                     </div>
                 </h1>
@@ -33,7 +33,7 @@ const Landing = () => {
             <div className='Slide-2 mt-12 text-xs text-gray-500 text-left'>
                 <div className='paragraph lg:hidden px-8 w-full lg:w-1/2'>
                     <span>
-                    Hey !! I'm Nikhil Sharma, a third-year B.Tech student at SRM University in Chennai. My passion for technology has driven me to develop skills in both Android and web development, creating user-friendly applications and websites. I have strong organizational skills, leading and managing various events. My outstanding academic performance reflects my hard work and dedication to learning. I'm eager to continue growing my skills and achieving my goals in the future.
+                    Hey !! Im Nikhil Sharma, a third-year B.Tech student at SRM University in Chennai. My passion for technology has driven me to develop skills in both Android and web development, creating user-friendly applications and websites. I have strong organizational skills, leading and managing various events. My outstanding academic performance reflects my hard work and dedication to learning. Im eager to continue growing my skills and achieving my goals in the future.
                     </span>
                 </div>
             </div>
