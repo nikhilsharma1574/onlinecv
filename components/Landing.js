@@ -1,7 +1,7 @@
 import React from 'react';
 // import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Card from './Card';
-import Profile_pic from '../assets/images/Profile_pic.jpg'
+import Profilepic from '../assets/images/Profilepic.png'
 import Typewriter from 'typewriter-effect'
 
 const Landing = () => {
@@ -27,7 +27,7 @@ const Landing = () => {
                 
             </div>
             <div className='w-full justify-center items-center flex h-full lg:scale-110 scale-90'>
-                <Card Profile_pic={Profile_pic}/>
+                <Card Profile_pic={Profilepic}/>
             </div>
         </div>
             <div className='Slide-2 mt-12 text-xs text-gray-500 text-left'>
