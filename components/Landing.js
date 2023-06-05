@@ -3,14 +3,14 @@ import Card from './Card';
 import Profilepic from '../assets/images/Profilepic.png'
 import Typewriter from 'typewriter-effect'
 // import Footer from './Footer'
-// import Image from 'next/image';
-// import Next from '../assets/svgs/Next.svg'
-// import java from '../assets/svgs/java.svg'
-// import Html from '../assets/svgs/Html.svg'
-// import react_logo from '../assets/svgs/react_logo.svg'
-// import c from '../assets/svgs/C.svg'
-// import android_logo from '../assets/svgs/android_studio.svg'
-// import Timeline from '../components/Timeline.js';
+import Image from 'next/image';
+import Next from '../assets/svgs/Next.svg'
+import java from '../assets/svgs/java.svg'
+import Html from '../assets/svgs/Html.svg'
+import react_logo from '../assets/svgs/react_logo.svg'
+import c from '../assets/svgs/C.svg'
+import android_logo from '../assets/svgs/android_studio.svg'
+import Timeline from '../components/Timeline.js';
 
 const Landing = () => {
     return (
@@ -46,7 +46,7 @@ const Landing = () => {
                     </span>
                 </div>
             </div>
-            {/* <div className='lg:flex flex-1 flex-row'>
+            <div className='lg:flex flex-1 flex-row'>
 
                 <div className='flex lg:flex-1 flex-col justify-centerskill p-4'>
                         <h1 className='m-4 text-white font-medium lg:text-[25px]'>SKILL BADGE</h1>
@@ -56,7 +56,7 @@ const Landing = () => {
                         <div className='grid place-content-center'><Image src={react_logo} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
                         <div className='grid place-content-center'><Image src={c} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
                         <div className='grid place-content-center'><Image src={java} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
-                        <div className='grid place-content-center'><Image src={Html} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
+                        <div className='grid place-content-center'>  <Image  src={Html} height={20} width={20} alt='Profile pic' className='m-2'/></div>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ const Landing = () => {
                         <Timeline/>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </>
     )
 }
