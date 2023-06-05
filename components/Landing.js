@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 import Profilepic from '../assets/images/Profilepic.png'
 import Typewriter from 'typewriter-effect'
-import Footer from './Footer'
+// import Footer from './Footer'
 import Image from 'next/image';
 import Next from '../assets/svgs/Next.svg'
 import java from '../assets/svgs/java.svg'
@@ -46,7 +46,7 @@ const Landing = () => {
                     </span>
                 </div>
             </div>
-            <div className='lg:flex flex-1 flex-row'>
+            {/* <div className='lg:flex flex-1 flex-row'>
 
                 <div className='flex lg:flex-1 flex-col justify-centerskill p-4'>
                         <h1 className='m-4 text-white font-medium lg:text-[25px]'>SKILL BADGE</h1>
@@ -66,7 +66,7 @@ const Landing = () => {
                         <Timeline/>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
