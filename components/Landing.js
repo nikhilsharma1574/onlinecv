@@ -3,14 +3,14 @@ import Card from './Card';
 import Profilepic from '../assets/images/Profilepic.png'
 import Typewriter from 'typewriter-effect'
 // import Footer from './Footer'
-import Image from 'next/image';
-import Next from '../assets/svgs/Next.svg'
-import java from '../assets/svgs/java.svg'
-import Html from '../assets/svgs/Html.svg'
-import react_logo from '../assets/svgs/react_logo.svg'
-import c from '../assets/svgs/C.svg'
-import android_logo from '../assets/svgs/android_studio.svg'
-import Timeline from '../components/Timeline.js';
+// import Image from 'next/image';
+// import Next from '../assets/svgs/Next.svg'
+// import java from '../assets/svgs/java.svg'
+// import Html from '../assets/svgs/Html.svg'
+// import react_logo from '../assets/svgs/react_logo.svg'
+// import c from '../assets/svgs/C.svg'
+// import android_logo from '../assets/svgs/android_studio.svg'
+// import Timeline from '../components/Timeline.js';
 
 const Landing = () => {
     return (
