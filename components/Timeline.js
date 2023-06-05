@@ -1,6 +1,6 @@
 import React from 'react'
 import dps from '../assets/svgs/dps.svg'
-import SRM from '../assets/svgs/srm.svg'
+import SRM from '../assets/svgs/SRM.svg'
 import Image from 'next/image'
 const Timeline = () => {
 return (
