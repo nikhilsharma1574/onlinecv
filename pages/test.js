@@ -1,6 +1,6 @@
     import Landing from '@/components/Landing'
     import Layout from '@/layouts/layout'
-    import Head from 'next/head'
+    // import Head from 'next/head'
 
 
 
