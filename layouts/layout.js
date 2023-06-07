@@ -5,7 +5,7 @@ import React from 'react'
 const Layout = ({children}) => {
     return (
         <div className='p-16 '>
-            <Navbar/>
+            {/* <Navbar/> */}
             {children}
             {/* <Footer/> */}
         </div>

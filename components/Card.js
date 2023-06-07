@@ -1,6 +1,9 @@
-import React from 'react'
 import Image from 'next/image'
 import MyButton from './Mybutton'
+import React, { useState, useEffect, useRef } from "react";
+
+
+
     const Card = ({Profile_pic}) => {
     return (
             <div className='backdrop-blur-sm object-contain card text-sm flex flex-col justify-start items-center  bg-slate-500/20 p-6 rounded-xl w-[250px] h-[300px]'>
