@@ -17,6 +17,14 @@ import Skillcard from './Skillcard';
 import techno from '../assets/images/Technocolabs.png'
 import seedit from '..//assets/images/seed_it.png'
 import Coming_soon from './Comming_soon';
+import Resumint from '../assets/images/Resumint.png'
+import android_app from '../assets/svgs/android_app.svg'
+import spotify from '../assets/svgs/spotify.svg'
+import Skill_card from './Skill_card';
+import best_project from '../assets/images/best_project.png'
+import hackathon from '../assets/images/Hackathon.png'
+import Project_day from '../assets/images/project_day.png'
+import technical_event from '../assets/images/technical_event.png'
 
 const Landing = () => {
     const [vantaEffect, setVantaEffect] = useState(0);
@@ -107,26 +115,25 @@ const Landing = () => {
                 <div className='card body flex flex-wrap justify-center lg:gap-10 gap-5 mt-6 lg:justify-start lg:p-6'>
                     <Coming_soon internship_title={"Technocolabs"} image_link={techno} desc={"As a Data Scientist Intern at Technocolabs, you will have the opportunity to work on real-world projects and gain practical experience in the field of data science."}/>
                     <Coming_soon internship_title={"SEED IT SOLUTION"} design={""} image_link={seedit} desc={"As a Data Scientist Intern at Technocolabs, you will have the opportunity to work on real-world projects and gain practical experience in the field of data science."}/>
-                    {/* <Skillcard image={techno} classdesign={"object-contain"} heading={"Seedit Solution"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/> */}
-                    {/* <Skillcard image={seedit} classdesign={"object-contain"} heading={"Seedit Solution"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/> */}
                 </div>
             </div>
 
             <div className='p-4 text-white flex flex-col'>
                 <h1 className='text-right font-medium lg:text-[25px]'>PROJECTS</h1>
                 <div className='card body flex flex-wrap justify-center lg:gap-10 gap-5 mt-6 lg:justify-end lg:p-6'>
-                    <Skillcard image={Profilepic} heading={"SRM HOSTEL Manager"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
-                    <Skillcard image={Profilepic} heading={"Online music player"} paragraph={"Technocolabs data Technocolabs data Technocolabs data"} button={"know more"}/>
-                    <Skillcard image={Profilepic} heading={"BMI Fusion App"} paragraph={"BSP data |BSP data |BSP data |BSP data |BSP data |"} button={"know more"}/>
+                    <Skillcard image={spotify} classdesign={"object-contain p-2"} heading={"SRM HOSTEL Manager"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
+                    <Skillcard image={android_app} classdesign={"object-contain p-2"} heading={"SRM HOSTEL Manager"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
+                    <Skillcard image={Resumint} classdesign={"object-contain p-2"} heading={"SRM HOSTEL Manager"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
                 </div>
             </div>
 
             <div className='p-4 text-white flex flex-col'>
                 <h1 className='text-left font-medium lg:text-[25px]'>ACHIVEMENTS</h1>
-                <div className='card body flex flex-wrap justify-center lg:gap-10 gap-5 mt-6 lg:justify-start lg:p-6'>
-                    <Skillcard image={Profilepic} heading={"Hacktoberfest winner"} paragraph={"BSP data |BSP data |BSP data |BSP data |BSP data |"} button={"know more"}/>
-                    <Skillcard image={Profilepic} heading={"Best project award"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
-                    <Skillcard image={Profilepic} heading={"SRM acedemic class top 5 holder"} paragraph={"Technocolabs data Technocolabs data Technocolabs data"} button={"know more"}/>
+                <div className='card body flex flex-wrap justify-center items-center flex-col lg:flex-row lg:gap-10 gap-5 mt-6 lg:justify-start lg:p-6'>
+                    <Skill_card image_link={technical_event} card_title={"Project day"} />
+                    <Skill_card image_link={best_project} card_title={"Project day"} />
+                    <Skill_card image_link={hackathon} card_title={"Project day"} />
+                    <Skill_card image_link={Project_day} card_title={"Project day"} />
                 </div>
             </div>
         </div>
