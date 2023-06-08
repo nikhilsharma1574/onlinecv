@@ -14,6 +14,10 @@ import BIRDS from "vanta/dist/vanta.waves.min";
 import * as THREE from "three";
 import Navbar from './Navbar'
 import Skillcard from './Skillcard';
+import techno from '../assets/images/Technocolabs.png'
+import seedit from '..//assets/images/seed_it.png'
+import Coming_soon from './Comming_soon';
+
 const Landing = () => {
     const [vantaEffect, setVantaEffect] = useState(0);
         const vantaRef = useRef(null);
@@ -99,11 +103,30 @@ const Landing = () => {
                 </div>
             </div>
             <div className='p-4 text-white flex flex-col'>
-                <h1>INTERNSHIPS</h1>
-                <div className='card body flex flex-nowrap flex-nowrap mt-6'>
-                    <Skillcard image={Profilepic} heading={"Seedit Solution"} paragraph={"Nikhil sharma is Billioner , from chhattisgarh , coder , developer , manager , influncer ."} button={"know more"}/>
-                    <Skillcard image={Profilepic} heading={"Technocolabs"} paragraph={"Nikhil sharma is Billioner , from chhattisgarh , coder , developer , manager , influncer ."} button={"know more"}/>
-                    <Skillcard image={Profilepic} heading={"Bhilai steel plant"} paragraph={"Nikhil sharma is Billioner , from chhattisgarh , coder , developer , manager , influncer ."} button={"know more"}/>
+                <h1 className='font-medium lg:text-[25px]'>INTERNSHIPS</h1>
+                <div className='card body flex flex-wrap justify-center lg:gap-10 gap-5 mt-6 lg:justify-start lg:p-6'>
+                    <Coming_soon internship_title={"Technocolabs"} image_link={techno} desc={"As a Data Scientist Intern at Technocolabs, you will have the opportunity to work on real-world projects and gain practical experience in the field of data science."}/>
+                    <Coming_soon internship_title={"SEED IT SOLUTION"} design={""} image_link={seedit} desc={"As a Data Scientist Intern at Technocolabs, you will have the opportunity to work on real-world projects and gain practical experience in the field of data science."}/>
+                    {/* <Skillcard image={techno} classdesign={"object-contain"} heading={"Seedit Solution"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/> */}
+                    {/* <Skillcard image={seedit} classdesign={"object-contain"} heading={"Seedit Solution"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/> */}
+                </div>
+            </div>
+
+            <div className='p-4 text-white flex flex-col'>
+                <h1 className='text-right font-medium lg:text-[25px]'>PROJECTS</h1>
+                <div className='card body flex flex-wrap justify-center lg:gap-10 gap-5 mt-6 lg:justify-end lg:p-6'>
+                    <Skillcard image={Profilepic} heading={"SRM HOSTEL Manager"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
+                    <Skillcard image={Profilepic} heading={"Online music player"} paragraph={"Technocolabs data Technocolabs data Technocolabs data"} button={"know more"}/>
+                    <Skillcard image={Profilepic} heading={"BMI Fusion App"} paragraph={"BSP data |BSP data |BSP data |BSP data |BSP data |"} button={"know more"}/>
+                </div>
+            </div>
+
+            <div className='p-4 text-white flex flex-col'>
+                <h1 className='text-left font-medium lg:text-[25px]'>ACHIVEMENTS</h1>
+                <div className='card body flex flex-wrap justify-center lg:gap-10 gap-5 mt-6 lg:justify-start lg:p-6'>
+                    <Skillcard image={Profilepic} heading={"Hacktoberfest winner"} paragraph={"BSP data |BSP data |BSP data |BSP data |BSP data |"} button={"know more"}/>
+                    <Skillcard image={Profilepic} heading={"Best project award"} paragraph={"Seed it Solution paragraph | Seed it Solution paragraph"} button={"know more"}/>
+                    <Skillcard image={Profilepic} heading={"SRM acedemic class top 5 holder"} paragraph={"Technocolabs data Technocolabs data Technocolabs data"} button={"know more"}/>
                 </div>
             </div>
         </div>

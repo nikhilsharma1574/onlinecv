@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-const skillcard = ({image,heading , paragraph, button}) => {
+const skillcard = ({image,heading , paragraph, button,classdesign}) => {
 return (
-            <div class="object-contain md:w-[150px] w-[120px] flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="lg:scale-110 object-contain md:w-[150px] w-[120px] flex flex-col bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <Image class="w-full h-[100px] rounded-t-lg object-cover bg-red-700" src={image} height={100} width={100} alt="image" />
+                    <Image class={`w-full h-[100px] rounded-t-lg ${classdesign}`} src={image} height={100} width={100} alt="image" />
                 </a>
                 <div class="px-2 pb-3 pt-3">
                     <a href="#">
