@@ -129,7 +129,7 @@ const Landing = () => {
                         <div className='grid place-content-center'><Image src={react_logo} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
                         <div className='grid place-content-center'><Image src={c} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
                         <div className='grid place-content-center'><Image src={java} height={100} width={100} alt='Profile pic' className='hover:scale-110 rounded-full lg:w-[70px] lg:h-[70px] object-cover w-[45px] h-[45px] transition mt-4'/></div>
-                        <div className='grid place-content-center'>  <Image  src={Html} height={20} width={20} alt='Profile pic' className='m-2'/></div>
+                        <div className='grid place-content-center'><Image  src={Html} height={20} width={20} alt='Profile pic' className='m-2'/></div>
                     </div>
                 </div>
 
