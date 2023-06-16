@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const skillcard = ({image,heading , paragraph, button,classdesign}) => {
 return (
-            <div class="transition-all delay-75 hover:scale-105 object-contain flex flex-row border p-2 h-fit max-w-[300px] rounded-lg shadow bg-gray-800 border-gray-700">
+            <div data-aos="fade-up" class="transition-all delay-75 hover:scale-105 object-contain flex flex-row border p-2 h-fit max-w-[300px] rounded-lg shadow bg-gray-800 border-gray-700">
                 <a href="#" className='w-[100px]'>
                     <Image class={`w-full h-[100px] rounded-t-lg ${classdesign}`} src={image} height={100} width={100} alt="image" />
                 </a>

@@ -15,25 +15,25 @@ const Footer = () => {
     return(
     <>
     <div className='flex items-center flex-col hover:scale-110 transition-all gap-2 p-1'>
-
-        <Image alt="Test" src={image} height={100} width={100} className='w-[30px]'/>
-        <a className='hover:underline cursor-pointer' href={link} >{title}</a>
-    
+          <Image alt="Test" src={image} height={100} width={100} className='w-[30px]'/>
+          <a className='hover:underline cursor-pointer'>{title}</a>
     </div>
     </>
     )
 }
 
   return (
+    
     <div className='h-[250px] bg-neutral-800 font-light text-xs p-4 pt-6 text-white'>
+      
       <div className='flex flex-col gap-5'>  
       <ul className='text-center text-base'>Contact Developer</ul>
         <ul className='flex flex-col'>
           <ul className='p-4 pt-1 flex flex-cols-4 justify-between  sm:justify-center lg:justify-center md:justify-center lg:gap-10 md:gap-10'>
-          <Links_footer title={"Linkdlen"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={github_footer}/>      
-          <Links_footer title={"Linkdlen"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={Hackerrank_footer}/>      
-          <Links_footer title={"Linkdlen"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={instagram_footer}/>      
-          <Links_footer title={"Linkdlen"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={mail_footer}/>      
+          <Links_footer title={"GitHub"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={github_footer}/>      
+          <Links_footer title={"Hackerrank"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={Hackerrank_footer}/>      
+          <Links_footer title={"Instagram"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={instagram_footer}/>      
+          <Links_footer title={"Mail"}  link={'https://www.linkedin.com/in/nikhilshaarrma'} image={mail_footer}/>      
           </ul>
         </ul>
         <ul className='text-center'>About us</ul>

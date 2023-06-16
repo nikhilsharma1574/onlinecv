@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Skill_card = ({image_link,card_title}) => {
 return (
-    <div className="transition-all delay-75 hover:scale-105 w-[250px] bg-white border rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div data-aos="zoom-in" className="transition-all delay-75 hover:scale-105 w-[250px] bg-white border rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
             <Image alt="Test" className='object-cover rounded-lg w-full'  height={500} width={500} src={image_link}/>       
     </a>
