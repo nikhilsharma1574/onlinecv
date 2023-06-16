@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import MyButton from './MyButton';
+import Mybutton from './MyButton'
 import React, { useState, useEffect, useRef } from "react";
-// import Modal from './Modal';
 
 
     const Card = ({Profile_pic ,clickfunction}) => {
@@ -15,7 +14,7 @@ import React, { useState, useEffect, useRef } from "react";
                     Software Developer | Organizer | Web Developer 
                 </span>
                 <div className=''>
-                <MyButton functionn={clickfunction} href="/test" buttonText={"Connect"} style="bg-white px-6 mt-6 py-2 rounded-md hover:bg-slate-300 bg-white text-black transition"/>
+                <Mybutton functionn={clickfunction} href="/test" buttonText={"Connect"} style="bg-white px-6 mt-6 py-2 rounded-md hover:bg-slate-300 bg-white text-black transition"/>
                 </div>
             </div>
     )
