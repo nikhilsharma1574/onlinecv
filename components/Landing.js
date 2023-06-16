@@ -25,7 +25,7 @@ import best_project from '../assets/images/best_project.png'
 import hackathon from '../assets/images/Hackathon.png'
 import Project_day from '../assets/images/project_day.png'
 import technical_event from '../assets/images/technical_event.png'
-import Modal from './Modal';
+// import Modal from './Modal';
 import Footer from './Footer';
 import { animateScroll as scroll } from 'react-scroll';
 import { FaArrowUp } from 'react-icons/fa/index';

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import MyButton from './MyButton';
 import React, { useState, useEffect, useRef } from "react";
-import Modal from './Modal';
+// import Modal from './Modal';
 
 
     const Card = ({Profile_pic ,clickfunction}) => {
