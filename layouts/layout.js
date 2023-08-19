@@ -4,7 +4,7 @@ import React from 'react'
 
 const Layout = ({children}) => {
     return (
-        <div className='p-16 '>
+        <div className='p-16 overflow-x-hidden'>
             {/* <Navbar/> */}
             {children}
             {/* <Footer/> */}

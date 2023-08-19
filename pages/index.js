@@ -4,7 +4,7 @@ import Layout from '@/layouts/layout'
 export default function Home ()  {
   return (
     <>
-      <main id='element-bg' className='w-full h-screen bg-gradient-to-b'>
+      <main id='element-bg' className='h-screen bg-gradient-to-b'>
       <Layout>
           <Landing/>
       </Layout>
