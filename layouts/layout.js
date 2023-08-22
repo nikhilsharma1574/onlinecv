@@ -5,9 +5,7 @@ import React from 'react'
 const Layout = ({children}) => {
     return (
         <div className='overflow-x-hidden'>
-            {/* <Navbar/> */}
             {children}
-            {/* <Footer/> */}
         </div>
     )
 }

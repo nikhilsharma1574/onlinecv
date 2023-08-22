@@ -56,12 +56,10 @@ const Landing = () => {
         };
         }, [vantaEffect]);
         const [isvisible,setvisible] = useState(false); 
-
     return (
         <>
         <div ref={vantaRef} className='h-screen max-w-screen '>
             <Navbar/>
-            
         <div className='flex justify-center items-center flex-col lg:mt-12 lg:flex-row w-full pt-10 px-6 md:px-16  text-center'>
             <div className='flex w-full py-6 font-bold tracking-wider h-full'>
                 <h1 className='lg:p-6 lg:justify-center lg:items-start lg:text-[50px] lg:flex lg:flex-col text-transparent text-[25px] bg-clip-text bg-gradient-to-r from-[#fff] to-[#7fb6d5] font-bold text-left'>

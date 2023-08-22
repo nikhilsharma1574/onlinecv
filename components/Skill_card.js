@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 const Skill_card = ({image_link,card_title}) => {
 return (
@@ -23,3 +23,6 @@ return (
 }
 
 export default Skill_card
+
+
+
